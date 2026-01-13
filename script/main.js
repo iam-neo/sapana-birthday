@@ -302,10 +302,10 @@ const animationTimeline = () => {
   });
 };
 
-document.getElementById("redirectLink").addEventListener("click", function(event) {
-  event.preventDefault(); // Prevent the default behavior of following the link
-  window.location.href = "birthday/index.html"; // Redirect to the desired URL
-});
+// document.getElementById("redirectLink").addEventListener("click", function(event) {
+//   event.preventDefault(); // Prevent the default behavior of following the link
+//   window.location.href = "birthday/index.html"; // Redirect to the desired URL
+// });
 
 // Run fetch and animation in sequence
 fetchData();
